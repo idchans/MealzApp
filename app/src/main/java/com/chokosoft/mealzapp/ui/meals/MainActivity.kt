@@ -25,7 +25,7 @@ fun MealsCategoriesScreen() {
     val viewModel: MealsCategoriesViewModel = viewModel()
     val meals = viewModel.getMeals()
     Text(
-        text = "Hello World!"
+        text = meals.toString()
     )
 }
 
